@@ -53,3 +53,8 @@
   color: #ad1818;
   background-color: #ffffff;
 }
+
+.project_button:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
