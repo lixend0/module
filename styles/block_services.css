@@ -1,0 +1,59 @@
+.services {
+  width: 1150px;
+  margin: 0 auto;
+}
+.services_title {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.services_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.img_box {
+  width: calc(50% - 5px);
+  height: 540px;
+}
+
+.services_img {
+  width: 100%;
+  height: 389px;
+}
+
+.services_btn {
+  width: 100%;
+  height: 153px;
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  border-radius: 5px;
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.services_text {
+  margin-top: 25px;
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.services_btn:hover {
+  background-color: #ffffff;
+  color: #ad1818;
+}

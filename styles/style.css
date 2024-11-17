@@ -37,10 +37,9 @@
 .block_services {
   display: block;
   margin-top: 150px;
-  margin-left: calc((100% - 1150px) / 2);
-  width: 1150px;
-  height: 300px;
-  background-color: antiquewhite;
+  padding: 150px 0;
+  width: 100%;
+  background-color: black;
 }
 .block_reviews {
   display: block;
