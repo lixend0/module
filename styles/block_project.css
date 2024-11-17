@@ -1,0 +1,55 @@
+.project_title {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.project {
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.project_img {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 15px;
+}
+
+.project_text {
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
+.project_link {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ad1818;
+}
+
+.project_button {
+  width: 100%;
+  height: 153px;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+  background-color: #ffffff;
+}

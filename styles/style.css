@@ -1,0 +1,65 @@
+@import url(./reset.css);
+@import url(./block_menu.css);
+@import url(./block_top-onas.css);
+@import url(./block_project.css);
+@import url(./block_services.css);
+@import url(./block_reviews.css);
+@import url(./block_gallery.css);
+@import url(./block_contacts-footer.css);
+
+.general_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block_menu {
+  display: block;
+  position: fixed;
+  top: 32px;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+  height: 25px;
+  z-index: 1;
+}
+
+.block_top-onas {
+  display: block;
+  margin-top: 128px;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+}
+.block_project {
+  display: block;
+  margin-top: 150px;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+}
+.block_services {
+  display: block;
+  margin-top: 150px;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+  height: 300px;
+  background-color: antiquewhite;
+}
+.block_reviews {
+  display: block;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+  height: 300px;
+  background-color: yellowgreen;
+}
+.block_gallery {
+  display: block;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+  height: 300px;
+  background-color: yellowgreen;
+}
+.block_contacts-footer {
+  display: block;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+  height: 300px;
+  background-color: yellowgreen;
+}

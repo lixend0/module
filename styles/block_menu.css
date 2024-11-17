@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.text_menu {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+  margin-left: 60px;
+}
+
+.text_menu:hover {
+  opacity: 50%;
+  text-decoration: underline;
+}
