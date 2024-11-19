@@ -1,0 +1,98 @@
+.gallery {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery_title {
+  display: block;
+  position: absolute;
+  top: 60px;
+  margin-left: calc((100% - 1150px) / 2);
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.gallery_slides {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery_slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gallery_box {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery_text {
+  position: absolute;
+  margin-left: calc((100% - 1150px) / 2);
+  bottom: 60px;
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  width: 443px;
+  height: 82px;
+  color: #ffffff;
+}
+
+.gallery_controls {
+  display: block;
+  position: absolute;
+  margin-left: calc((100% - 1150px) / 2);
+  bottom: 142px;
+}
+.control_prev {
+  width: 40px;
+  font-family: Manrope;
+  font-size: 70px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 50%;
+  border: 0px;
+  padding: 0px;
+  background: none;
+}
+
+.control_next {
+  width: 40px;
+  font-family: Manrope;
+  font-size: 70px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 50%;
+  border: 0px;
+  padding: 0px;
+  background: none;
+}
+
+.control_prev:hover {
+  opacity: 1;
+  color: #ffffff;
+}
+
+.control_next:hover {
+  opacity: 1;
+  color: #ffffff;
+}
