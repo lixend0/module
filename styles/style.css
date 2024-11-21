@@ -53,8 +53,11 @@
 }
 .block_contacts-footer {
   display: block;
-  margin-left: calc((100% - 1150px) / 2);
-  width: 1150px;
-  height: 300px;
-  background-color: yellowgreen;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
 }

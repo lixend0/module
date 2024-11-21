@@ -1,0 +1,112 @@
+.block_contacts {
+  display: block;
+  margin-left: calc((100% - 1150px) / 2);
+  width: 1150px;
+  display: block;
+  padding: 150px 0;
+}
+.contacts_title {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+  margin-bottom: 75px;
+}
+.contacts_boxes {
+  display: flex;
+  width: 100%;
+}
+
+.contacts_phone {
+  position: relative;
+  width: 50%;
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+}
+
+.contacts_phone::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -40px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/images/before_phone.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.contacts_mail {
+  position: relative;
+  width: 50%;
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.mail_text {
+  opacity: 50%;
+  text-decoration: underline;
+}
+
+.contacts_mail::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -40px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resources/images/before_mail.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.block_footer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 229px;
+  background-color: #121212;
+}
+.menu_footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  top: 60px;
+  left: calc(50% - (450px / 2));
+}
+
+.copy_footer {
+  position: absolute;
+  width: 390px;
+  left: calc(50% - (390px / 2));
+  bottom: 30px;
+  color: #ffffff;
+  opacity: 50%;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+}
+.text_menu_footer {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.text_menu_footer:hover {
+  opacity: 50%;
+}
