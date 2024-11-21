@@ -6,6 +6,7 @@
 @import url(./block_reviews.css);
 @import url(./block_gallery.css);
 @import url(./block_contacts-footer.css);
+@import url(./popup.css);
 
 .general_block {
   display: flex;
