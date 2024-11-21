@@ -1,0 +1,52 @@
+.reviews {
+  width: 100%;
+  display: block;
+  padding: 150px 0;
+}
+
+.reviews_title {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+  margin-bottom: 30px;
+}
+
+.reviews_flex_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6%;
+}
+
+.box_reviews {
+  width: 47%;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.box_reviews_last {
+  width: 75%;
+}
+
+.box_reviews_title {
+  font-family: Manrope;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61.47px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.rewiews_text {
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
