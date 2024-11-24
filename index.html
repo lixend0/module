@@ -107,7 +107,7 @@
                 class="services_img" />
               <p class="services_text">Комплекция</p>
             </div>
-            <button class="services_btn">Заказать услугу</button>
+            <button class="services_btn js-btn">Заказать услугу</button>
           </div>
         </div>
       </div>
@@ -227,12 +227,36 @@
           <div class="copy_footer">студия дизайна интерьера Метрика — 2023</div>
         </div>
       </div>
+      <button class="burger_btn"></button>
+    </div>
+    <div class="block_burger_menu">
+      <div class="burger_menu"></div>
     </div>
     <div class="block_popup">
-      <div class="popup_container">
-        <div class="popup_content"></div>
+      <div class="popup_container js-popup">
+        <div class="popup_content js-popup__content">
+          <div class="popup_box_content">
+            <h2 class="popup_title">Заказать услугу</h2>
+            <h3 class="popup_info">
+              Заполните форму, мы свяжемся с вами в течение суток
+            </h3>
+            <input type="text" class="popup_input" placeholder="Имя" />
+            <input
+              type="email"
+              class="popup_input"
+              placeholder="Электронная почта" />
+            <input
+              type="tel"
+              class="popup_input"
+              placeholder="Номер телефона" />
+            <button class="popup_btn">Отправить</button>
+          </div>
+          <div class="popup_close js-popup__close-btn"></div>
+        </div>
       </div>
     </div>
+
     <script src="./js/gallery.js"></script>
+    <script src="./js/popup.js"></script>
   </body>
 </html>

@@ -58,6 +58,9 @@
 }
 
 @media (max-width: 1199px) {
+  .block_menu {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
