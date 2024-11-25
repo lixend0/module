@@ -27,14 +27,14 @@
   right: 40px;
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  background: transparent;
   background-image: url(../resources/images/burger_btn.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: contain;
   cursor: pointer;
   border: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 .block_burger_menu {
@@ -61,11 +61,62 @@
   position: relative;
   width: 50%;
   height: 100%;
-  padding: 20px;
+  padding-top: 150px;
+  padding-left: 100px;
   background-color: aliceblue;
   opacity: 90%;
 }
 
+.menu_burger {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.text_menu_burger {
+  font-family: Manrope;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.15px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #000000;
+}
+
+.menu_info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.menu_info_text {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  opacity: 50%;
+}
+
+.phone_burger,
+.mail_burger {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.burger-btn_open {
+  background: transparent;
+  background-image: url(../resources/images/popup_close.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  z-index: 3;
+}
 @media (max-width: 1199px) {
   .burger_btn {
     display: block;

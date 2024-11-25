@@ -81,3 +81,45 @@
   letter-spacing: -0.03em;
   color: #ffffff;
 }
+
+@media (max-width: 1199px) {
+  .text_header {
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .block_top {
+    margin-top: 30px;
+    height: 450px;
+  }
+
+  .text_top_img {
+    width: 400px;
+    font-size: 18px;
+  }
+
+  .o_nas {
+    margin-top: 90px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .o_nas_title {
+    font-size: 16px;
+  }
+
+  .o_nas_text {
+    font-size: 35px;
+  }
+
+  .o_nas_button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+}

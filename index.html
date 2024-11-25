@@ -18,10 +18,10 @@
         <nav class="menu">
           <a href=""><img src="./resources/images/block_menu_logo.png" /></a>
           <div>
-            <a class="text_menu" href="">О НАС</a>
-            <a class="text_menu" href="">ПРОЕКТЫ</a>
-            <a class="text_menu" href="">УСЛУГИ</a>
-            <a class="text_menu" href="">КОНТАКТЫ</a>
+            <a class="text_menu" href="#o_nas">О НАС</a>
+            <a class="text_menu" href="#project">ПРОЕКТЫ</a>
+            <a class="text_menu" href="#services">УСЛУГИ</a>
+            <a class="text_menu" href="#contacts">КОНТАКТЫ</a>
           </div>
         </nav>
       </div>
@@ -37,7 +37,7 @@
           </p>
         </div>
         <div class="o_nas">
-          <h2 class="o_nas_title">О НАС</h2>
+          <h2 class="o_nas_title" id="o_nas">О НАС</h2>
           <p class="o_nas_text">
             Студия основана в 2011 году. Полностью отдаемся проектированию и
             реализации интерьеров. К нам обращаются за уютом, индивидуальными
@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="block_project">
-        <h2 class="project_title">ПРОЕКТЫ</h2>
+        <h2 class="project_title" id="project">ПРОЕКТЫ</h2>
         <div class="project">
           <img
             src="./resources/images/block_project1.png"
@@ -77,7 +77,7 @@
       </div>
       <div class="block_services">
         <div class="services">
-          <h2 class="services_title">УСЛУГИ</h2>
+          <h2 class="services_title" id="services">УСЛУГИ</h2>
           <div class="services_box">
             <div class="img_box">
               <img
@@ -209,7 +209,7 @@
       </div>
       <div class="block_contacts-footer">
         <div class="block_contacts">
-          <h2 class="contacts_title">КОНТАКТЫ</h2>
+          <h2 class="contacts_title" id="contacts">КОНТАКТЫ</h2>
           <div class="contacts_boxes">
             <div class="contacts_phone">+7 935 895-45-35</div>
             <div class="contacts_mail">
@@ -219,44 +219,57 @@
         </div>
         <div class="block_footer">
           <div class="menu_footer">
-            <a class="text_menu_footer" href="">О НАС</a>
-            <a class="text_menu_footer" href="">ПРОЕКТЫ</a>
-            <a class="text_menu_footer" href="">УСЛУГИ</a>
-            <a class="text_menu_footer" href="">КОНТАКТЫ</a>
+            <a class="text_menu_footer" href="#o_nas">О НАС</a>
+            <a class="text_menu_footer" href="#project">ПРОЕКТЫ</a>
+            <a class="text_menu_footer" href="#services">УСЛУГИ</a>
+            <a class="text_menu_footer" href="#contacts">КОНТАКТЫ</a>
           </div>
           <div class="copy_footer">студия дизайна интерьера Метрика — 2023</div>
         </div>
       </div>
-      <button class="burger_btn"></button>
+      <button class="burger_btn js-burger-btn"></button>
     </div>
-    <div class="block_burger_menu">
-      <div class="burger_menu"></div>
-    </div>
-    <div class="block_popup">
-      <div class="popup_container js-popup">
-        <div class="popup_content js-popup__content">
-          <div class="popup_box_content">
-            <h2 class="popup_title">Заказать услугу</h2>
-            <h3 class="popup_info">
-              Заполните форму, мы свяжемся с вами в течение суток
-            </h3>
-            <input type="text" class="popup_input" placeholder="Имя" />
-            <input
-              type="email"
-              class="popup_input"
-              placeholder="Электронная почта" />
-            <input
-              type="tel"
-              class="popup_input"
-              placeholder="Номер телефона" />
-            <button class="popup_btn">Отправить</button>
-          </div>
-          <div class="popup_close js-popup__close-btn"></div>
+    <div class="block_burger_menu js-burger">
+      <div class="burger_menu js-burger__content">
+        <nav class="menu_burger">
+          <a href=""
+            ><img
+              class="logo_burger"
+              src="./resources/images/block_menu_logo.png"
+          /></a>
+          <a class="text_menu_burger" href="#o_nas">О НАС</a>
+          <a class="text_menu_burger" href="#project">ПРОЕКТЫ</a>
+          <a class="text_menu_burger" href="#services">УСЛУГИ</a>
+          <a class="text_menu_burger" href="#contacts">КОНТАКТЫ</a>
+        </nav>
+        <div class="menu_info">
+          <p class="menu_info_text">для связи:</p>
+          <a class="phone_burger">+7 935 895-45-35</a>
+          <a class="mail_burger">hello@mail.com</a>
         </div>
+      </div>
+    </div>
+    <div class="popup_container js-popup">
+      <div class="popup_content js-popup__content">
+        <div class="popup_box_content">
+          <h2 class="popup_title">Заказать услугу</h2>
+          <h3 class="popup_info">
+            Заполните форму, мы свяжемся с вами в течение суток
+          </h3>
+          <input type="text" class="popup_input" placeholder="Имя" />
+          <input
+            type="email"
+            class="popup_input"
+            placeholder="Электронная почта" />
+          <input type="tel" class="popup_input" placeholder="Номер телефона" />
+          <button class="popup_btn">Отправить</button>
+        </div>
+        <div class="popup_close js-popup__close-btn"></div>
       </div>
     </div>
 
     <script src="./js/gallery.js"></script>
     <script src="./js/popup.js"></script>
+    <script src="./js/burger.js"></script>
   </body>
 </html>

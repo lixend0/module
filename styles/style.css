@@ -58,10 +58,45 @@
 }
 
 @media (max-width: 1199px) {
+  .general_block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .block_menu {
     display: none;
+  }
+  .block_top-onas {
+    margin-top: 90px;
+    margin-left: 0;
+  }
+  .block_project {
+    margin-top: 90px;
+    margin-left: 0;
+  }
+  .block_services {
+    margin-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .block_reviews {
+    margin-left: 0;
+    width: 100%;
+  }
+  .block_gallery {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 650px;
   }
 }
 
 @media (max-width: 767px) {
+  .block_top-onas {
+    margin-top: 70px;
+  }
+  .block_project {
+    margin-top: 60px;
+  }
+  .block_services {
+    margin-top: 60px;
+  }
 }
