@@ -1,4 +1,5 @@
 .services {
+  display: block;
   width: 1150px;
   margin: 0 auto;
 }
@@ -57,4 +58,13 @@
 .services_btn:hover {
   background-color: #ffffff;
   color: #ad1818;
+}
+
+@media (max-width: 1199px) {
+  .services {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
 }

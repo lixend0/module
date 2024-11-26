@@ -58,3 +58,13 @@
   color: #ffffff;
   background-color: #ad1818;
 }
+@media (max-width: 1299px) {
+  .project {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .project {
+    margin-bottom: 60px;
+  }
+}
