@@ -82,7 +82,7 @@
   .block_gallery {
     padding-left: 10px;
     padding-right: 10px;
-    height: 650px;
+    height: 550px;
   }
 }
 
@@ -96,5 +96,10 @@
   .block_services {
     margin-top: 60px;
     padding: 60px 10px;
+  }
+  .block_gallery {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 350px;
   }
 }

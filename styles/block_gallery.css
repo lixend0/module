@@ -120,6 +120,7 @@
 
   .gallery_text {
     margin-left: 20px;
+    margin-right: 20px;
     bottom: 20px;
     font-size: 25px;
     line-height: 30px;
@@ -152,8 +153,9 @@
   }
 
   .gallery_text {
-    margin-left: 20px;
-    bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 15px;
     font-size: 20px;
   }
 

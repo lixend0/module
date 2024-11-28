@@ -126,11 +126,12 @@
 
 @media (max-width: 767px) {
   .text_header {
-    font-size: 35px;
+    font-size: 30px;
   }
   .text_top_img {
     width: 300px;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 12px;
     bottom: 20px;
     left: 20px;
   }
@@ -140,7 +141,7 @@
   }
 
   .o_nas_text {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
   }
 }
