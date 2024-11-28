@@ -73,8 +73,7 @@
   }
   .block_services {
     margin-top: 90px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 90px 10px;
   }
   .block_reviews {
     margin-left: 0;
@@ -96,5 +95,6 @@
   }
   .block_services {
     margin-top: 60px;
+    padding: 60px 10px;
   }
 }

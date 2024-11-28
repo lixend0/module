@@ -121,10 +121,31 @@
   .burger_btn {
     display: block;
   }
+  .burger_menu {
+    width: 70%;
+    padding-top: 60px;
+    padding-left: 60px;
+  }
+
+  .menu_burger {
+    width: 100%;
+    gap: 20px;
+  }
+  .text_menu_burger {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 767px) {
   .burger_menu {
-    padding: 0;
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+
+  .text_menu_burger {
+    font-size: 20px;
+    line-height: 25px;
   }
 }

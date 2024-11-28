@@ -2,7 +2,6 @@
   display: block;
   margin-left: calc((100% - 1150px) / 2);
   width: 1150px;
-  display: block;
   padding: 150px 0;
 }
 .contacts_title {
@@ -114,7 +113,89 @@
   .block_contacts {
     margin-left: 0;
     width: 100%;
+    padding: 90px 10px;
+  }
+
+  .contacts_title {
+    margin-bottom: 50px;
+  }
+
+  .contacts_phone {
+    font-size: 40px;
+  }
+
+  .contacts_phone::before {
+    top: -30px;
+    width: 20px;
+    height: 20px;
+  }
+  .contacts_mail {
+    font-size: 40px;
+  }
+
+  .contacts_mail::before {
+    top: -30px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .block_footer {
+    height: 200px;
+  }
+  .menu_footer {
+    width: 400px;
+    top: 40px;
+    left: calc(50% - (400px / 2));
+  }
+
+  .copy_footer {
+    width: 350px;
+    left: calc(50% - (350px / 2));
+    bottom: 20px;
+    font-size: 18px;
+  }
+  .text_menu_footer {
+    font-size: 16px;
   }
 }
 @media (max-width: 767px) {
+  .block_contacts {
+    padding: 60px 10px;
+  }
+
+  .contacts_title {
+    margin-bottom: 30px;
+  }
+
+  .contacts_boxes {
+    flex-direction: column;
+  }
+  .contacts_phone {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .contacts_mail {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .block_footer {
+    height: 180px;
+  }
+  .menu_footer {
+    width: 300px;
+    top: 30px;
+    left: calc(50% - (300px / 2));
+  }
+
+  .copy_footer {
+    width: 300px;
+    left: calc(50% - (300px / 2));
+    bottom: 15px;
+    font-size: 14px;
+  }
+  .text_menu_footer {
+    font-size: 14px;
+  }
 }

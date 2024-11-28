@@ -63,8 +63,50 @@
 @media (max-width: 1199px) {
   .services {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .services_box {
+    width: 100%;
+    gap: 5px;
+  }
+  .img_box {
+    height: 100%;
+  }
+
+  .services_img {
+    height: 100%;
+  }
+  .services_text {
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .services_btn {
+    height: 130px;
+    font-size: 25px;
+    line-height: 30px;
   }
 }
 
 @media (max-width: 767px) {
+  .services_text {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .services_btn {
+    height: 100px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services_box {
+    flex-wrap: column;
+    margin-top: 20px;
+  }
+
+  .img_box {
+    width: 100%;
+  }
 }

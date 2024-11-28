@@ -50,3 +50,52 @@
   letter-spacing: -0.03em;
   text-align: left;
 }
+
+@media (max-width: 1199px) {
+  .reviews {
+    padding: 90px 10px;
+  }
+
+  .box_reviews {
+    margin-bottom: 30px;
+  }
+
+  .box_reviews_title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .rewiews_text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .reviews {
+    padding: 60px 10px;
+  }
+  .reviews_flex_box {
+    flex-wrap: column;
+  }
+
+  .box_reviews {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .box_reviews_last {
+    width: 100%;
+  }
+
+  .box_reviews_title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .rewiews_text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
